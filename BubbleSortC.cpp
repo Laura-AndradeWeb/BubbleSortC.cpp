@@ -26,6 +26,7 @@ main()
     BubbleSort(vetor, tam); //Chama a função com os parametros vetor e tamanho
     puts("\nVetor ordenado pelo BubbleSort: ");
     ImprimeVetor(vetor, tam);
+    printf("\nTrocas: %d\nComparacoes: %d", trocas, comp);
 
 }
 
