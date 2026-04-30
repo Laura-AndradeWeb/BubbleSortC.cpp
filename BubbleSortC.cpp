@@ -35,7 +35,7 @@ void BubbleSort(int *vet, int tam)
 
     int i, j, aux;
 
-    for(i = tam-1; i >= 0; i--)
+    for(i = tam-1; i >= 0; i--)//Conforme os números maiores são ordenados o i diminui
     {
         for(j = 0; j < i; j++)
         {
